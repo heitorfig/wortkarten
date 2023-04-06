@@ -54,7 +54,7 @@ const CardStyled = styled(Card)(({ theme, isPlaying, disabled }: { theme?: any, 
 export const WordCard = ({ id, name, image, sound, onPlaying, isPlaying, disabled, lang }: WordCardProps) => {
   const playSound = (sound: string) => () => {
     if (!isPlaying && !disabled) {
-      const audio = new Audio(`/sounds/${lang}/${sound}`);
+      const audio = new Audio(`./sounds/${lang}/${sound}`);
       audio.playbackRate = 0.9;
       setTimeout(() => audio.play(), 250);
       onPlaying(id, true);
