@@ -1,302 +1,702 @@
 [
   {
     "id": "apfel",
-    "name": "der Apfel",
     "image": "apfel.png",
-    "sound": "apfel.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Apfel",
+        "sound": "apfel.mp3"
+      },
+      "es": {
+        "name": "la Manzana",
+        "sound": "manzana.mp3"
+      }
+    }
   },
   {
     "id": "banane",
-    "name": "die Banane",
     "image": "banane.png",
-    "sound": "banane.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Banane",
+        "sound": "banane.mp3"
+      },
+      "es": {
+        "name": "el Platano",
+        "sound": "platano.mp3"
+      }
+    }
   },
   {
     "id": "birne",
-    "name": "die Birne",
     "image": "birne.png",
-    "sound": "birne.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Birne",
+        "sound": "birne.mp3"
+      },
+      "es": {
+        "name": "la Pera",
+        "sound": "pera.mp3"
+      }
+    }
   },
   {
     "id": "erdbeere",
-    "name": "die Erdbeere",
     "image": "erdbeere.png",
-    "sound": "erdbeere.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Erdbeere",
+        "sound": "erdbeere.mp3"
+      },
+      "es": {
+        "name": "la Fresa",
+        "sound": "fresa.mp3"
+      }
+    }
   },
   {
     "id": "kirsche",
-    "name": "die Kirsche",
     "image": "kirsche.png",
-    "sound": "kirsche.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Kirsche",
+        "sound": "kirsche.mp3"
+      },
+      "es": {
+        "name": "la Cereza",
+        "sound": "cereza.mp3"
+      }
+    }
   },
   {
     "id": "mandarine",
-    "name": "die Mandarine",
     "image": "mandarine.png",
-    "sound": "mandarine.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Mandarine",
+        "sound": "mandarine.mp3"
+      },
+      "es": {
+        "name": "la Mandarina",
+        "sound": "mandarina.mp3"
+      }
+    }
   },
   {
     "id": "orange",
-    "name": "die Orange",
     "image": "orange.png",
-    "sound": "orange.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Orange",
+        "sound": "orange.mp3"
+      },
+      "es": {
+        "name": "la Naranja",
+        "sound": "naranja.mp3"
+      }
+    }
   },
   {
     "id": "traube",
-    "name": "die Traube",
     "image": "traube.png",
-    "sound": "traube.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Traube",
+        "sound": "traube.mp3"
+      },
+      "es": {
+        "name": "la Uva",
+        "sound": "uva.mp3"
+      }
+    }
   },
   {
     "id": "wassermelone",
-    "name": "die Wassermelone",
     "image": "wassermelone.png",
-    "sound": "wassermelone.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Wassermelone",
+        "sound": "wassermelone.mp3"
+      },
+      "es": {
+        "name": "la Sandia",
+        "sound": "sandia.mp3"
+      }
+    }
   },
   {
     "id": "zitrone",
-    "name": "die Zitrone",
     "image": "zitrone.png",
-    "sound": "zitrone.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Zitrone",
+        "sound": "zitrone.mp3"
+      },
+      "es": {
+        "name": "el Limón",
+        "sound": "limon.mp3"
+      }
+    }
   },
   {
     "id": "hund",
-    "name": "der Hund",
     "image": "hund.png",
-    "sound": "hund.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Hund",
+        "sound": "hund.mp3"
+      },
+      "es": {
+        "name": "el Perro",
+        "sound": "perro.mp3"
+      }
+    }
   },
   {
     "id": "katze",
-    "name": "die Katze",
     "image": "katze.png",
-    "sound": "katze.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Katze",
+        "sound": "katze.mp3"
+      },
+      "es": {
+        "name": "el Gato",
+        "sound": "gato.mp3"
+      }
+    }
   },
   {
     "id": "pizza",
-    "name": "die Pizza",
     "image": "pizza.png",
-    "sound": "pizza.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Pizza",
+        "sound": "pizza.mp3"
+      },
+      "es": {
+        "name": "la Pizza",
+        "sound": "pizza.mp3"
+      }
+    }
   },
   {
     "id": "wasser",
-    "name": "das Wasser",
     "image": "wasser.png",
-    "sound": "wasser.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Wasser",
+        "sound": "wasser.mp3"
+      },
+      "es": {
+        "name": "el Água",
+        "sound": "agua.mp3"
+      }
+    }
   },
   {
     "id": "papa",
-    "name": "der Papa",
     "image": "papa.png",
-    "sound": "papa.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Papa",
+        "sound": "papa.mp3"
+      },
+      "es": {
+        "name": "el Papa",
+        "sound": "papa.mp3"
+      }
+    }
   },
   {
     "id": "mama",
-    "name": "die Mama",
     "image": "mama.jpg",
-    "sound": "mama.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Mama",
+        "sound": "mama.mp3"
+      },
+      "es": {
+        "name": "la Mama",
+        "sound": "mama.mp3"
+      }
+    }
   },
   {
     "id": "auto",
-    "name": "das Auto",
     "image": "auto.png",
-    "sound": "auto.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Auto",
+        "sound": "auto.mp3"
+      },
+      "es": {
+        "name": "el Auto",
+        "sound": "auto.mp3"
+      }
+    }
   },
   {
     "id": "benjamin",
-    "name": "der Benjamin",
     "image": "benjamin.png",
-    "sound": "benjamin.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Benjamin",
+        "sound": "benjamin.mp3"
+      },
+      "es": {
+        "name": "Benjamin",
+        "sound": "benjamin.mp3"
+      }
+    }
   },
   {
     "id": "kraehe",
-    "name": "die Krähe",
     "image": "crow.png",
-    "sound": "kraehe.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Krähe",
+        "sound": "kraehe.mp3"
+      },
+      "es": {
+        "name": "el Cuervo",
+        "sound": "cuervo.mp3"
+      }
+    }
   },
   {
     "id": "ball",
-    "name": "der Ball",
     "image": "ball.png",
-    "sound": "ball.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Ball",
+        "sound": "ball.mp3"
+      },
+      "es": {
+        "name": "la Pelota",
+        "sound": "pelota.mp3"
+      }
+    }
   },
   {
     "id": "ei",
-    "name": "das Ei",
     "image": "ei.png",
-    "sound": "ei.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Ei",
+        "sound": "ei.mp3"
+      },
+      "es": {
+        "name": "el Huevo",
+        "sound": "huevo.mp3"
+      }
+    }
   },
   {
     "id": "baum",
-    "name": "der Baum",
     "image": "baum.png",
-    "sound": "baum.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Baum",
+        "sound": "baum.mp3"
+      },
+      "es": {
+        "name": "el Árbol",
+        "sound": "arbol.mp3"
+      }
+    }
   },
   {
     "id": "blatt",
-    "name": "das Blatt",
     "image": "blatt.png",
-    "sound": "blatt.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Blatt",
+        "sound": "blatt.mp3"
+      },
+      "es": {
+        "name": "la Hoja",
+        "sound": "hoja.mp3"
+      }
+    }
   },
   {
     "id": "schuh",
-    "name": "der Schuh",
     "image": "schuh.jpeg",
-    "sound": "schuh.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Schuh",
+        "sound": "schuh.mp3"
+      },
+      "es": {
+        "name": "el Zapato",
+        "sound": "zapato.mp3"
+      }
+    }
   },
   {
     "id": "zahnbuerste",
-    "name": "die Zahnbürste",
     "image": "zahnbuerste.png",
-    "sound": "zahnbuerste.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Zahnbürste",
+        "sound": "zahnbuerste.mp3"
+      },
+      "es": {
+        "name": "el Cepillo",
+        "sound": "cepillo.mp3"
+      }
+    }
   },
   {
     "id": "becher",
-    "name": "der Becher",
     "image": "becher.png",
-    "sound": "becher.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Becher",
+        "sound": "becher.mp3"
+      },
+      "es": {
+        "name": "la Taza",
+        "sound": "taza.mp3"
+      }
+    }
   },
   {
     "id": "fisch",
-    "name": "der Fisch",
     "image": "fisch.png",
-    "sound": "fisch.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Fisch",
+        "sound": "fisch.mp3"
+      },
+      "es": {
+        "name": "el Pescado",
+        "sound": "pescado.mp3"
+      }
+    }
   },
   {
     "id": "flugzeug",
-    "name": "das Flugzeug",
     "image": "flugzeug.png",
-    "sound": "flugzeug.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Flugzeug",
+        "sound": "flugzeug.mp3"
+      },
+      "es": {
+        "name": "el Avión",
+        "sound": "avion.mp3"
+      }
+    }
   },
   {
     "id": "bus",
-    "name": "der Bus",
     "image": "bus.png",
-    "sound": "bus.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Bus",
+        "sound": "bus.mp3"
+      },
+      "es": {
+        "name": "el Bus",
+        "sound": "bus.mp3"
+      }
+    }
   },
   {
     "id": "brot",
-    "name": "das Brot",
     "image": "brot.png",
-    "sound": "brot.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Brot",
+        "sound": "brot.mp3"
+      },
+      "es": {
+        "name": "el Pan",
+        "sound": "pan.mp3"
+      }
+    }
   },
   {
     "id": "ente",
-    "name": "die Ente",
     "image": "ente.png",
-    "sound": "ente.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Ente",
+        "sound": "ente.mp3"
+      },
+      "es": {
+        "name": "el Pato",
+        "sound": "pato.mp3"
+      }
+    }
   },
   {
     "id": "schokolade",
-    "name": "die Schokolade",
     "image": "schokolade.png",
-    "sound": "schokolade.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Schokolade",
+        "sound": "schokolade.mp3"
+      },
+      "es": {
+        "name": "el Chocolate",
+        "sound": "chocolate.mp3"
+      }
+    }
   },
   {
     "id": "loewe",
-    "name": "der Löwe",
     "image": "loewe.png",
-    "sound": "loewe.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Löwe",
+        "sound": "loewe.mp3"
+      },
+      "es": {
+        "name": "el León",
+        "sound": "leon.mp3"
+      }
+    }
   },
   {
     "id": "elefant",
-    "name": "der Elefant",
     "image": "elefant.png",
-    "sound": "elefant.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Elefant",
+        "sound": "elefant.mp3"
+      },
+      "es": {
+        "name": "el Elefante",
+        "sound": "elefante.mp3"
+      }
+    }
   },
   {
     "id": "karotte",
-    "name": "die Karotte",
     "image": "karotte.png",
-    "sound": "karotte.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Karotte",
+        "sound": "karotte.mp3"
+      },
+      "es": {
+        "name": "la Zanahoria",
+        "sound": "zanahoria.mp3"
+      }
+    }
   },
   {
     "id": "biene",
-    "name": "die Biene",
     "image": "biene.png",
-    "sound": "biene.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Biene",
+        "sound": "biene.mp3"
+      },
+      "es": {
+        "name": "la Abeja",
+        "sound": "abeja.mp3"
+      }
+    }
   },
   {
     "id": "ananas",
-    "name": "die Ananas",
     "image": "ananas.png",
-    "sound": "ananas.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Ananas",
+        "sound": "ananas.mp3"
+      },
+      "es": {
+        "name": "la Piña",
+        "sound": "pina.mp3"
+      }
+    }
   },
   {
     "id": "brezel",
-    "name": "die Brezel",
     "image": "brezel.png",
-    "sound": "brezel.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Brezel",
+        "sound": "brezel.mp3"
+      },
+      "es": {
+        "name": "el Brezel",
+        "sound": "brezel.mp3"
+      }
+    }
   },
   {
     "id": "teller",
-    "name": "der Teller",
     "image": "teller.png",
-    "sound": "teller.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Teller",
+        "sound": "teller.mp3"
+      },
+      "es": {
+        "name": "el Plato",
+        "sound": "plato.mp3"
+      }
+    }
   },
   {
     "id": "schaufel",
-    "name": "die Schaufel",
     "image": "schaufel.png",
-    "sound": "schaufel.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Schaufel",
+        "sound": "schaufel.mp3"
+      },
+      "es": {
+        "name": "la Pala",
+        "sound": "pala.mp3"
+      }
+    }
   },
   {
     "id": "eis",
-    "name": "das Eis",
     "image": "eis.png",
-    "sound": "eis.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Eis",
+        "sound": "eis.mp3"
+      },
+      "es": {
+        "name": "el Helado",
+        "sound": "helado.mp3"
+      }
+    }
   },
   {
     "id": "kuh",
-    "name": "die Kuh",
     "image": "kuh.png",
-    "sound": "kuh.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Kuh",
+        "sound": "kuh.mp3"
+      },
+      "es": {
+        "name": "la Vaca",
+        "sound": "vaca.mp3"
+      }
+    }
   },
   {
     "id": "buch",
-    "name": "das Buch",
     "image": "buch.png",
-    "sound": "buch.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Buch",
+        "sound": "buch.mp3"
+      },
+      "es": {
+        "name": "el Libro",
+        "sound": "libro.mp3"
+      }
+    }
   },
   {
     "id": "kuchen",
-    "name": "der Kuchen",
     "image": "kuchen.jpg",
-    "sound": "kuchen.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Kuchen",
+        "sound": "kuchen.mp3"
+      },
+      "es": {
+        "name": "la Torta",
+        "sound": "torta.mp3"
+      }
+    }
   },
   {
     "id": "crocchini",
-    "name": "die Crocchini",
     "image": "crocchini.jpg",
-    "sound": "crocchini.mp3"
+    "i18n": {
+      "de": {
+        "name": "die Crocchini",
+        "sound": "crocchini.mp3"
+      },
+      "es": {
+        "name": "el Crocchini",
+        "sound": "crocchini.mp3"
+      }
+    }
   },
   {
     "id": "affe",
-    "name": "der Affe",
     "image": "affe.png",
-    "sound": "affe.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Affe",
+        "sound": "affe.mp3"
+      },
+      "es": {
+        "name": "el Mono",
+        "sound": "mono.mp3"
+      }
+    }
   },
   {
     "id": "frosch",
-    "name": "der Frosch",
     "image": "frosch.png",
-    "sound": "frosch.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Frosch",
+        "sound": "frosch.mp3"
+      },
+      "es": {
+        "name": "el Sapo",
+        "sound": "sapo.mp3"
+      }
+    }
   },
   {
     "id": "schwein",
-    "name": "das Schwein",
     "image": "schwein.png",
-    "sound": "schwein.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Schwein",
+        "sound": "schwein.mp3"
+      },
+      "es": {
+        "name": "el Cerdo",
+        "sound": "cerdo.mp3"
+      }
+    }
   },
   {
     "id": "pferd",
-    "name": "das Pferd",
     "image": "pferd.png",
-    "sound": "pferd.mp3"
+    "i18n": {
+      "de": {
+        "name": "das Pferd",
+        "sound": "pferd.mp3"
+      },
+      "es": {
+        "name": "el Caballo",
+        "sound": "caballo.mp3"
+      }
+    }
   },
   {
     "id": "vogel",
-    "name": "der Vogel",
     "image": "vogel.png",
-    "sound": "vogel.mp3"
+    "i18n": {
+      "de": {
+        "name": "der Vogel",
+        "sound": "vogel.mp3"
+      },
+      "es": {
+        "name": "el Pajaro",
+        "sound": "pajaro.mp3"
+      }
+    }
   }
 ]
