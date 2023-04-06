@@ -1,4 +1,4 @@
-import { Button, Grid, Stack } from '@mui/material';
+import { Box, Button, Grid, Stack } from '@mui/material';
 import React from 'react';
 import { Item } from './interfaces/item';
 import { CardItem } from './interfaces/card';
@@ -11,6 +11,7 @@ items.sort((a: Item, b: Item) => a.id.localeCompare(b.id));
 const App: React.FC = () => {
   const [filteredItems, setFilteredItems] = React.useState<CardItem[]>([]);
   const [isPlaying, setIsPlaying] = React.useState('');
+  const [activeCard, setActiveCard] = React.useState<CardItem | undefined>(undefined);
   const [lang, setLang] = React.useState('es');
 
   const handlePlaying = (id: string, playing: boolean) => {
@@ -31,6 +32,11 @@ const App: React.FC = () => {
     setFilteredItems(filtered);
   }, [lang]);
 
+  React.useEffect(() => {
+    const active = filteredItems.find((item: CardItem) => item.id === isPlaying);
+    setActiveCard(active);
+  }, [isPlaying, filteredItems]);
+
   return (
     <>
       <Stack direction="row" spacing={2} paddingX={3} alignItems="center" justifyContent="center">
@@ -44,6 +50,11 @@ const App: React.FC = () => {
           </Grid>
         ))}
       </Grid>
+      {isPlaying && activeCard && (
+        <Box position="fixed" top={0} left={0} width="100%" height="100%" bgcolor="warning.main" display="flex" alignItems="center" justifyContent="center" zIndex={1}>
+          <img src={`/wortkarten/img/${activeCard.image}`} alt={activeCard.name} />
+        </Box>
+      )}
     </>
   );
 }
