@@ -1,25 +1,27 @@
+import { Grid } from '@mui/material';
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { CardItem } from './interfaces/card';
 
-function App() {
+import items from './content/items.json';
+import { WordCard } from './components/Card';
+
+items.sort((a: CardItem, b: CardItem) => a.id.localeCompare(b.id));
+
+const App: React.FC = () => {
+  const [isPlaying, setIsPlaying] = React.useState('');
+
+  const handlePlaying = (id: string, playing: boolean) => {
+    setIsPlaying(playing ? id : '');
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid container spacing={4} padding={3} bgcolor="primary.main">
+      {items.map((item: CardItem) => (
+        <Grid item xs={6} sm={6} md={4} lg={3} xl={2} key={item.id}>
+          <WordCard {...item} onPlaying={handlePlaying} isPlaying={isPlaying === item.id} disabled={(!!isPlaying && isPlaying !== item.id)} />
+        </Grid>
+      ))}
+    </Grid>
   );
 }
 
