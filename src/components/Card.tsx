@@ -67,9 +67,9 @@ export const WordCard = ({ id, name, image, sound, onPlaying, isPlaying, disable
 
   return (
     <CardStyled onClick={playSound(sound)} isPlaying={isPlaying} disabled={disabled}>
-      <CardMedia component="img" height={150} image={`/img/${image}`} alt={name} sx={{ objectFit: 'contain' }} />
+      <CardMedia component="img" height={150} image={`./img/${image}`} alt={name} sx={{ objectFit: 'contain' }} />
       <CardHeader title={name} titleTypographyProps={{ variant: 'h6' }} />
-      <img src={`/img/${image}`} alt={name} className="backdrop" />
+      <img src={`./img/${image}`} alt={name} className="backdrop" />
     </CardStyled>
   );
 }
