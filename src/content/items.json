@@ -698,5 +698,33 @@
         "sound": "pajaro.mp3"
       }
     }
+  },
+  {
+    "id": "hand",
+    "image": "hand.png",
+    "i18n": {
+      "de": {
+        "name": "die Hand",
+        "sound": "hand.mp3"
+      },
+      "es": {
+        "name": "la Mano",
+        "sound": "mano.mp3"
+      }
+    }
+  },
+  {
+    "id": "fuss",
+    "image": "foot.png",
+    "i18n": {
+      "de": {
+        "name": "der Fuß",
+        "sound": "fuss.mp3"
+      },
+      "es": {
+        "name": "el Pie",
+        "sound": "pie.mp3"
+      }
+    }
   }
 ]

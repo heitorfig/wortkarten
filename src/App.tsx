@@ -25,8 +25,8 @@ const App: React.FC = () => {
   React.useEffect(() => {
     const filtered = items.map((item: Item) => ({
       id: item.id,
-      name: item.i18n[lang].name,
-      sound: item.i18n[lang].sound,
+      name: item.i18n[lang]?.name || item.i18n['es'].name,
+      sound: item.i18n[lang]?.sound || item.i18n['es'].sound,
       image: item.image,
     }));
     setFilteredItems(filtered);
@@ -39,9 +39,11 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Stack direction="row" spacing={2} paddingX={3} alignItems="center" justifyContent="center">
-        <Button variant="contained" color="primary" onClick={() => handleLang('es')}>Español</Button>
-        <Button variant="contained" color="primary" onClick={() => handleLang('de')}>Deutsch</Button>
+      <Stack direction="row" spacing={2} paddingX={3} paddingTop={2} alignItems="center" justifyContent="center">
+        <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('es')}>🇪🇸</Button>
+        {/* <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('br')}>🇧🇷</Button> */}
+        <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('de')}>🇩🇪</Button>
+        {/* <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('en')}>🇺🇸</Button> */}
       </Stack>
       <Grid container spacing={4} padding={3} bgcolor="primary.main">
         {filteredItems.map((item: CardItem) => (
