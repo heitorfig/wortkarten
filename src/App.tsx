@@ -1,7 +1,9 @@
-import { Box, Button, Grid, Stack } from '@mui/material';
+import { Box, Button, Fab, Grid, Stack } from '@mui/material';
 import React from 'react';
 import { Item } from './interfaces/item';
 import { CardItem } from './interfaces/card';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import items from './content/items.json';
 import { WordCard } from './components/Card';
@@ -13,6 +15,22 @@ const App: React.FC = () => {
   const [isPlaying, setIsPlaying] = React.useState('');
   const [activeCard, setActiveCard] = React.useState<CardItem | undefined>(undefined);
   const [lang, setLang] = React.useState('es');
+
+  const scrollUp = () => {
+    window.scrollBy({
+      top: -window.innerHeight,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  const scrollDown = () => {
+    window.scrollBy({
+      top: window.innerHeight,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
 
   const handlePlaying = (id: string, playing: boolean) => {
     setIsPlaying(playing ? id : '');
@@ -45,7 +63,7 @@ const App: React.FC = () => {
         <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('de')}>🇩🇪</Button>
         {/* <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('en')}>🇺🇸</Button> */}
       </Stack>
-      <Grid container spacing={4} padding={3} bgcolor="primary.main">
+      <Grid container spacing={4} padding={3} paddingRight={14} bgcolor="primary.main">
         {filteredItems.map((item: CardItem) => (
           <Grid item xs={6} sm={6} md={4} lg={3} xl={2} key={item.id}>
             <WordCard {...item} onPlaying={handlePlaying} isPlaying={isPlaying === item.id} disabled={(!!isPlaying && isPlaying !== item.id)} lang={lang} />
@@ -57,6 +75,14 @@ const App: React.FC = () => {
           <img src={`/wortkarten/img/${activeCard.image}`} alt={activeCard.name} />
         </Box>
       )}
+      <Stack direction="column" spacing={2} padding={3} alignItems="center" justifyContent="center" position="fixed" top={0} right={0} height="100%">
+        <Fab onClick={scrollUp}>
+          <KeyboardArrowUpIcon />
+        </Fab>
+        <Fab onClick={scrollDown}>
+          <KeyboardArrowDownIcon />
+        </Fab>
+      </Stack>
     </>
   );
 }
