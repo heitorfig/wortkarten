@@ -5,11 +5,11 @@
     "i18n": {
       "de": {
         "name": "der Apfel",
-        "sound": "apfel.mp3"
+        "audio": "apfel.mp3"
       },
       "es": {
         "name": "la Manzana",
-        "sound": "manzana.mp3"
+        "audio": "manzana.mp3"
       }
     }
   },
@@ -19,11 +19,11 @@
     "i18n": {
       "de": {
         "name": "die Banane",
-        "sound": "banane.mp3"
+        "audio": "banane.mp3"
       },
       "es": {
         "name": "el Platano",
-        "sound": "platano.mp3"
+        "audio": "platano.mp3"
       }
     }
   },
@@ -33,11 +33,11 @@
     "i18n": {
       "de": {
         "name": "die Birne",
-        "sound": "birne.mp3"
+        "audio": "birne.mp3"
       },
       "es": {
         "name": "la Pera",
-        "sound": "pera.mp3"
+        "audio": "pera.mp3"
       }
     }
   },
@@ -47,11 +47,11 @@
     "i18n": {
       "de": {
         "name": "die Erdbeere",
-        "sound": "erdbeere.mp3"
+        "audio": "erdbeere.mp3"
       },
       "es": {
         "name": "la Fresa",
-        "sound": "fresa.mp3"
+        "audio": "fresa.mp3"
       }
     }
   },
@@ -61,11 +61,11 @@
     "i18n": {
       "de": {
         "name": "die Kirsche",
-        "sound": "kirsche.mp3"
+        "audio": "kirsche.mp3"
       },
       "es": {
         "name": "la Cereza",
-        "sound": "cereza.mp3"
+        "audio": "cereza.mp3"
       }
     }
   },
@@ -75,11 +75,11 @@
     "i18n": {
       "de": {
         "name": "die Mandarine",
-        "sound": "mandarine.mp3"
+        "audio": "mandarine.mp3"
       },
       "es": {
         "name": "la Mandarina",
-        "sound": "mandarina.mp3"
+        "audio": "mandarina.mp3"
       }
     }
   },
@@ -89,11 +89,11 @@
     "i18n": {
       "de": {
         "name": "die Orange",
-        "sound": "orange.mp3"
+        "audio": "orange.mp3"
       },
       "es": {
         "name": "la Naranja",
-        "sound": "naranja.mp3"
+        "audio": "naranja.mp3"
       }
     }
   },
@@ -103,11 +103,11 @@
     "i18n": {
       "de": {
         "name": "die Traube",
-        "sound": "traube.mp3"
+        "audio": "traube.mp3"
       },
       "es": {
         "name": "la Uva",
-        "sound": "uva.mp3"
+        "audio": "uva.mp3"
       }
     }
   },
@@ -117,11 +117,11 @@
     "i18n": {
       "de": {
         "name": "die Wassermelone",
-        "sound": "wassermelone.mp3"
+        "audio": "wassermelone.mp3"
       },
       "es": {
         "name": "la Sandia",
-        "sound": "sandia.mp3"
+        "audio": "sandia.mp3"
       }
     }
   },
@@ -131,11 +131,11 @@
     "i18n": {
       "de": {
         "name": "die Zitrone",
-        "sound": "zitrone.mp3"
+        "audio": "zitrone.mp3"
       },
       "es": {
         "name": "el Limón",
-        "sound": "limon.mp3"
+        "audio": "limon.mp3"
       }
     }
   },
@@ -145,11 +145,11 @@
     "i18n": {
       "de": {
         "name": "der Hund",
-        "sound": "hund.mp3"
+        "audio": "hund.mp3"
       },
       "es": {
         "name": "el Perro",
-        "sound": "perro.mp3"
+        "audio": "perro.mp3"
       }
     }
   },
@@ -159,11 +159,11 @@
     "i18n": {
       "de": {
         "name": "die Katze",
-        "sound": "katze.mp3"
+        "audio": "katze.mp3"
       },
       "es": {
         "name": "el Gato",
-        "sound": "gato.mp3"
+        "audio": "gato.mp3"
       }
     }
   },
@@ -173,11 +173,11 @@
     "i18n": {
       "de": {
         "name": "die Pizza",
-        "sound": "pizza.mp3"
+        "audio": "pizza.mp3"
       },
       "es": {
         "name": "la Pizza",
-        "sound": "pizza.mp3"
+        "audio": "pizza.mp3"
       }
     }
   },
@@ -187,11 +187,11 @@
     "i18n": {
       "de": {
         "name": "das Wasser",
-        "sound": "wasser.mp3"
+        "audio": "wasser.mp3"
       },
       "es": {
         "name": "el Água",
-        "sound": "agua.mp3"
+        "audio": "agua.mp3"
       }
     }
   },
@@ -201,11 +201,11 @@
     "i18n": {
       "de": {
         "name": "der Papa",
-        "sound": "papa.mp3"
+        "audio": "papa.mp3"
       },
       "es": {
         "name": "el Papa",
-        "sound": "papa.mp3"
+        "audio": "papa.mp3"
       }
     }
   },
@@ -215,25 +215,26 @@
     "i18n": {
       "de": {
         "name": "die Mama",
-        "sound": "mama.mp3"
+        "audio": "mama.mp3"
       },
       "es": {
         "name": "la Mama",
-        "sound": "mama.mp3"
+        "audio": "mama.mp3"
       }
     }
   },
   {
     "id": "auto",
     "image": "auto.png",
+    "sound": "car.wav",
     "i18n": {
       "de": {
         "name": "das Auto",
-        "sound": "auto.mp3"
+        "audio": "auto.mp3"
       },
       "es": {
         "name": "el Auto",
-        "sound": "auto.mp3"
+        "audio": "auto.mp3"
       }
     }
   },
@@ -243,11 +244,11 @@
     "i18n": {
       "de": {
         "name": "der Benjamin",
-        "sound": "benjamin.mp3"
+        "audio": "benjamin.mp3"
       },
       "es": {
         "name": "Benjamin",
-        "sound": "benjamin.mp3"
+        "audio": "benjamin.mp3"
       }
     }
   },
@@ -257,11 +258,11 @@
     "i18n": {
       "de": {
         "name": "die Krähe",
-        "sound": "kraehe.mp3"
+        "audio": "kraehe.mp3"
       },
       "es": {
         "name": "el Cuervo",
-        "sound": "cuervo.mp3"
+        "audio": "cuervo.mp3"
       }
     }
   },
@@ -271,11 +272,11 @@
     "i18n": {
       "de": {
         "name": "der Ball",
-        "sound": "ball.mp3"
+        "audio": "ball.mp3"
       },
       "es": {
         "name": "la Pelota",
-        "sound": "pelota.mp3"
+        "audio": "pelota.mp3"
       }
     }
   },
@@ -285,11 +286,11 @@
     "i18n": {
       "de": {
         "name": "das Ei",
-        "sound": "ei.mp3"
+        "audio": "ei.mp3"
       },
       "es": {
         "name": "el Huevo",
-        "sound": "huevo.mp3"
+        "audio": "huevo.mp3"
       }
     }
   },
@@ -299,11 +300,11 @@
     "i18n": {
       "de": {
         "name": "der Baum",
-        "sound": "baum.mp3"
+        "audio": "baum.mp3"
       },
       "es": {
         "name": "el Árbol",
-        "sound": "arbol.mp3"
+        "audio": "arbol.mp3"
       }
     }
   },
@@ -313,11 +314,11 @@
     "i18n": {
       "de": {
         "name": "das Blatt",
-        "sound": "blatt.mp3"
+        "audio": "blatt.mp3"
       },
       "es": {
         "name": "la Hoja",
-        "sound": "hoja.mp3"
+        "audio": "hoja.mp3"
       }
     }
   },
@@ -327,11 +328,11 @@
     "i18n": {
       "de": {
         "name": "der Schuh",
-        "sound": "schuh.mp3"
+        "audio": "schuh.mp3"
       },
       "es": {
         "name": "el Zapato",
-        "sound": "zapato.mp3"
+        "audio": "zapato.mp3"
       }
     }
   },
@@ -341,11 +342,11 @@
     "i18n": {
       "de": {
         "name": "die Zahnbürste",
-        "sound": "zahnbuerste.mp3"
+        "audio": "zahnbuerste.mp3"
       },
       "es": {
         "name": "el Cepillo",
-        "sound": "cepillo.mp3"
+        "audio": "cepillo.mp3"
       }
     }
   },
@@ -355,11 +356,11 @@
     "i18n": {
       "de": {
         "name": "der Becher",
-        "sound": "becher.mp3"
+        "audio": "becher.mp3"
       },
       "es": {
         "name": "la Taza",
-        "sound": "taza.mp3"
+        "audio": "taza.mp3"
       }
     }
   },
@@ -369,11 +370,11 @@
     "i18n": {
       "de": {
         "name": "der Fisch",
-        "sound": "fisch.mp3"
+        "audio": "fisch.mp3"
       },
       "es": {
-        "name": "el Pescado",
-        "sound": "pescado.mp3"
+        "name": "el Pez",
+        "audio": "pez.mp3"
       }
     }
   },
@@ -383,11 +384,11 @@
     "i18n": {
       "de": {
         "name": "das Flugzeug",
-        "sound": "flugzeug.mp3"
+        "audio": "flugzeug.mp3"
       },
       "es": {
         "name": "el Avión",
-        "sound": "avion.mp3"
+        "audio": "avion.mp3"
       }
     }
   },
@@ -397,11 +398,11 @@
     "i18n": {
       "de": {
         "name": "der Bus",
-        "sound": "bus.mp3"
+        "audio": "bus.mp3"
       },
       "es": {
         "name": "el Bus",
-        "sound": "bus.mp3"
+        "audio": "bus.mp3"
       }
     }
   },
@@ -411,11 +412,11 @@
     "i18n": {
       "de": {
         "name": "das Brot",
-        "sound": "brot.mp3"
+        "audio": "brot.mp3"
       },
       "es": {
         "name": "el Pan",
-        "sound": "pan.mp3"
+        "audio": "pan.mp3"
       }
     }
   },
@@ -425,11 +426,11 @@
     "i18n": {
       "de": {
         "name": "die Ente",
-        "sound": "ente.mp3"
+        "audio": "ente.mp3"
       },
       "es": {
         "name": "el Pato",
-        "sound": "pato.mp3"
+        "audio": "pato.mp3"
       }
     }
   },
@@ -439,11 +440,11 @@
     "i18n": {
       "de": {
         "name": "die Schokolade",
-        "sound": "schokolade.mp3"
+        "audio": "schokolade.mp3"
       },
       "es": {
         "name": "el Chocolate",
-        "sound": "chocolate.mp3"
+        "audio": "chocolate.mp3"
       }
     }
   },
@@ -453,11 +454,11 @@
     "i18n": {
       "de": {
         "name": "der Löwe",
-        "sound": "loewe.mp3"
+        "audio": "loewe.mp3"
       },
       "es": {
         "name": "el León",
-        "sound": "leon.mp3"
+        "audio": "leon.mp3"
       }
     }
   },
@@ -467,11 +468,11 @@
     "i18n": {
       "de": {
         "name": "der Elefant",
-        "sound": "elefant.mp3"
+        "audio": "elefant.mp3"
       },
       "es": {
         "name": "el Elefante",
-        "sound": "elefante.mp3"
+        "audio": "elefante.mp3"
       }
     }
   },
@@ -481,11 +482,11 @@
     "i18n": {
       "de": {
         "name": "die Karotte",
-        "sound": "karotte.mp3"
+        "audio": "karotte.mp3"
       },
       "es": {
         "name": "la Zanahoria",
-        "sound": "zanahoria.mp3"
+        "audio": "zanahoria.mp3"
       }
     }
   },
@@ -495,11 +496,11 @@
     "i18n": {
       "de": {
         "name": "die Biene",
-        "sound": "biene.mp3"
+        "audio": "biene.mp3"
       },
       "es": {
         "name": "la Abeja",
-        "sound": "abeja.mp3"
+        "audio": "abeja.mp3"
       }
     }
   },
@@ -509,11 +510,11 @@
     "i18n": {
       "de": {
         "name": "die Ananas",
-        "sound": "ananas.mp3"
+        "audio": "ananas.mp3"
       },
       "es": {
         "name": "la Piña",
-        "sound": "pina.mp3"
+        "audio": "pina.mp3"
       }
     }
   },
@@ -523,11 +524,11 @@
     "i18n": {
       "de": {
         "name": "die Brezel",
-        "sound": "brezel.mp3"
+        "audio": "brezel.mp3"
       },
       "es": {
         "name": "el Brezel",
-        "sound": "brezel.mp3"
+        "audio": "brezel.mp3"
       }
     }
   },
@@ -537,11 +538,11 @@
     "i18n": {
       "de": {
         "name": "der Teller",
-        "sound": "teller.mp3"
+        "audio": "teller.mp3"
       },
       "es": {
         "name": "el Plato",
-        "sound": "plato.mp3"
+        "audio": "plato.mp3"
       }
     }
   },
@@ -551,11 +552,11 @@
     "i18n": {
       "de": {
         "name": "die Schaufel",
-        "sound": "schaufel.mp3"
+        "audio": "schaufel.mp3"
       },
       "es": {
         "name": "la Pala",
-        "sound": "pala.mp3"
+        "audio": "pala.mp3"
       }
     }
   },
@@ -565,11 +566,11 @@
     "i18n": {
       "de": {
         "name": "das Eis",
-        "sound": "eis.mp3"
+        "audio": "eis.mp3"
       },
       "es": {
         "name": "el Helado",
-        "sound": "helado.mp3"
+        "audio": "helado.mp3"
       }
     }
   },
@@ -579,11 +580,11 @@
     "i18n": {
       "de": {
         "name": "die Kuh",
-        "sound": "kuh.mp3"
+        "audio": "kuh.mp3"
       },
       "es": {
         "name": "la Vaca",
-        "sound": "vaca.mp3"
+        "audio": "vaca.mp3"
       }
     }
   },
@@ -593,11 +594,11 @@
     "i18n": {
       "de": {
         "name": "das Buch",
-        "sound": "buch.mp3"
+        "audio": "buch.mp3"
       },
       "es": {
         "name": "el Libro",
-        "sound": "libro.mp3"
+        "audio": "libro.mp3"
       }
     }
   },
@@ -607,39 +608,26 @@
     "i18n": {
       "de": {
         "name": "der Kuchen",
-        "sound": "kuchen.mp3"
+        "audio": "kuchen.mp3"
       },
       "es": {
         "name": "la Torta",
-        "sound": "torta.mp3"
-      }
-    }
-  },
-  {
-    "id": "crocchini",
-    "image": "crocchini.jpg",
-    "i18n": {
-      "de": {
-        "name": "die Crocchini",
-        "sound": "crocchini.mp3"
-      },
-      "es": {
-        "name": "el Crocchini",
-        "sound": "crocchini.mp3"
+        "audio": "torta.mp3"
       }
     }
   },
   {
     "id": "affe",
     "image": "affe.png",
+    "sound": "affe.wav",
     "i18n": {
       "de": {
         "name": "der Affe",
-        "sound": "affe.mp3"
+        "audio": "affe.mp3"
       },
       "es": {
         "name": "el Mono",
-        "sound": "mono.mp3"
+        "audio": "mono.mp3"
       }
     }
   },
@@ -649,11 +637,11 @@
     "i18n": {
       "de": {
         "name": "der Frosch",
-        "sound": "frosch.mp3"
+        "audio": "frosch.mp3"
       },
       "es": {
         "name": "el Sapo",
-        "sound": "sapo.mp3"
+        "audio": "sapo.mp3"
       }
     }
   },
@@ -663,11 +651,11 @@
     "i18n": {
       "de": {
         "name": "das Schwein",
-        "sound": "schwein.mp3"
+        "audio": "schwein.mp3"
       },
       "es": {
         "name": "el Cerdo",
-        "sound": "cerdo.mp3"
+        "audio": "cerdo.mp3"
       }
     }
   },
@@ -677,11 +665,11 @@
     "i18n": {
       "de": {
         "name": "das Pferd",
-        "sound": "pferd.mp3"
+        "audio": "pferd.mp3"
       },
       "es": {
         "name": "el Caballo",
-        "sound": "caballo.mp3"
+        "audio": "caballo.mp3"
       }
     }
   },
@@ -691,11 +679,11 @@
     "i18n": {
       "de": {
         "name": "der Vogel",
-        "sound": "vogel.mp3"
+        "audio": "vogel.mp3"
       },
       "es": {
         "name": "el Pajaro",
-        "sound": "pajaro.mp3"
+        "audio": "pajaro.mp3"
       }
     }
   },
@@ -705,11 +693,11 @@
     "i18n": {
       "de": {
         "name": "die Hand",
-        "sound": "hand.mp3"
+        "audio": "hand.mp3"
       },
       "es": {
         "name": "la Mano",
-        "sound": "mano.mp3"
+        "audio": "mano.mp3"
       }
     }
   },
@@ -719,11 +707,25 @@
     "i18n": {
       "de": {
         "name": "der Fuß",
-        "sound": "fuss.mp3"
+        "audio": "fuss.mp3"
       },
       "es": {
         "name": "el Pie",
-        "sound": "pie.mp3"
+        "audio": "pie.mp3"
+      }
+    }
+  },
+  {
+    "id": "stuhl",
+    "image": "stuhl.png",
+    "i18n": {
+      "de": {
+        "name": "der Stuhl",
+        "audio": "stuhl.mp3"
+      },
+      "es": {
+        "name": "la Silla",
+        "audio": "silla.mp3"
       }
     }
   }

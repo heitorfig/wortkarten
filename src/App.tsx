@@ -40,12 +40,20 @@ const App: React.FC = () => {
     setLang(lang);
   };
 
+  const playBgAudio = () => {
+    const bgSound = new Audio('/wortkarten/sounds/bg.mp3');
+    bgSound.loop = true;
+    bgSound.volume = 0.05;
+    bgSound.play();
+  }
+
   React.useEffect(() => {
     const filtered = items.map((item: Item) => ({
       id: item.id,
       name: item.i18n[lang]?.name || item.i18n['es'].name,
-      sound: item.i18n[lang]?.sound || item.i18n['es'].sound,
+      audio: item.i18n[lang]?.audio || item.i18n['es'].audio,
       image: item.image,
+      sound: item.sound,
     }));
     setFilteredItems(filtered);
   }, [lang]);
@@ -62,6 +70,7 @@ const App: React.FC = () => {
         {/* <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('br')}>🇧🇷</Button> */}
         <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('de')}>🇩🇪</Button>
         {/* <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => handleLang('en')}>🇺🇸</Button> */}
+        <Button size="small" sx={{ padding: 0, minWidth: 'unset', lineHeight: 1, fontSize: 32 }} onClick={() => playBgAudio()}>▶️</Button>
       </Stack>
       <Grid container spacing={4} padding={3} paddingRight={14} bgcolor="primary.main">
         {filteredItems.map((item: CardItem) => (
@@ -71,7 +80,7 @@ const App: React.FC = () => {
         ))}
       </Grid>
       {isPlaying && activeCard && (
-        <Box position="fixed" top={0} left={0} width="100%" height="100%" bgcolor="warning.main" display="flex" alignItems="center" justifyContent="center" zIndex={1}>
+        <Box position="fixed" top={0} left={0} width="100%" height="100%" bgcolor="white" display="flex" alignItems="center" justifyContent="center" zIndex={1}>
           <img src={`/wortkarten/img/${activeCard.image}`} alt={activeCard.name} />
         </Box>
       )}

@@ -5,14 +5,17 @@ interface WordCardProps {
   id: string;
   name: string;
   image: string;
-  sound: string;
+  audio: string;
+  sound?: string;
   onPlaying: (id: string, isPlaying: boolean) => void;
   isPlaying: boolean;
   disabled: boolean;
   lang: string;
 }
 
-const CardStyled = styled(Card)(({ theme, isPlaying, disabled }: { theme?: any, isPlaying: boolean, disabled: boolean }) => ({
+const CardStyled = styled(Card, {
+  shouldForwardProp: (prop) => prop !== "isPlaying" && prop !== "disabled",
+})(({ theme, isPlaying, disabled }: { theme?: any, isPlaying: boolean, disabled: boolean }) => ({
   position: 'relative',
   color: isPlaying ? theme.palette.warning.contrastText : theme.palette.text.primary,
   backgroundColor: isPlaying ? theme.palette.warning.main : theme.palette.background.paper,
@@ -45,22 +48,32 @@ const CardStyled = styled(Card)(({ theme, isPlaying, disabled }: { theme?: any, 
   }
 }));
 
-export const WordCard = ({ id, name, image, sound, onPlaying, isPlaying, disabled, lang }: WordCardProps) => {
-  const playSound = (sound: string) => () => {
+export const WordCard = ({ id, name, image, audio, sound, onPlaying, isPlaying, disabled, lang }: WordCardProps) => {
+  const playSound = (): void => {
     if (!isPlaying && !disabled) {
-      const audio = new Audio(`/wortkarten/sounds/${lang}/${sound}`);
-      audio.playbackRate = 0.9;
-      setTimeout(() => audio.play(), 500);
       onPlaying(id, true);
-      audio.addEventListener('ended', () => {
-        setTimeout(() => onPlaying(id, false), 500);
+      const soundObj = new Audio(`/wortkarten/sounds/${sound}`);
+
+      setTimeout(() => soundObj.play(), 500);
+      soundObj.addEventListener('ended', () => {
+        playAudio();
       });
-      audio.addEventListener('error', () => onPlaying('id', false));
+      soundObj.addEventListener('error', () => {
+        playAudio();
+      });
     }
   }
 
+  const playAudio = (): void => {
+    const audioObj = new Audio(`/wortkarten/sounds/${lang}/${audio}`);
+    audioObj.playbackRate = 0.9;
+    audioObj.play();
+    audioObj.addEventListener('ended', () => onPlaying(id, false));
+    audioObj.addEventListener('error', () => onPlaying(id, false));
+  }
+
   return (
-    <CardStyled onClick={playSound(sound)} isPlaying={isPlaying} disabled={disabled}>
+    <CardStyled onClick={(): void => playSound()} isPlaying={isPlaying} disabled={disabled}>
       <CardMedia component="img" height={150} image={`/wortkarten/img/${image}`} alt={name} sx={{ objectFit: 'contain' }} />
       <CardHeader title={name} titleTypographyProps={{ variant: 'h6' }} />
       <img src={`/wortkarten/img/${image}`} alt={name} className="backdrop" />
