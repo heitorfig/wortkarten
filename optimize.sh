@@ -1,3 +1,4 @@
+#!/bin/bash
 # Optimize images in ./public/img/ folder and make all of them have max height of 500px
 # Usage: ./optimize.sh
 
