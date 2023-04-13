@@ -5,4 +5,4 @@ files=$(find build/ -type f -not -name ".DS_Store" | sed 's/build\///g' | sed "s
 files=${files%?}
 files=$(echo $files | sed 's/\//\\\//g')
 
-sed -i '' "s/let urlsToCache = \[\];/let urlsToCache = \[$files\];/g" build/serviceWorker.js
+sed -i '' "s/let precacheResources = \[\'\/\'\];/let precacheResources = \[\'\/\', $files\];/g" build/serviceWorker.js
