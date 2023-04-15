@@ -59,6 +59,13 @@ const theme = createTheme({
         }
       }
     }
+  },
+  typography: {
+    h1: {
+      color: '#DB5D04',
+      fontSize: '9rem',
+      fontWeight: 700
+    }
   }
 })
 

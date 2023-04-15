@@ -1,6 +1,6 @@
 export interface Item {
   id: string;
-  image: string;
+  image?: string;
   sound?: string;
   i18n: {
     [key: string]: {

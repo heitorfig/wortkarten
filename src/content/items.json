@@ -1,5 +1,135 @@
 [
   {
+    "id": "01",
+    "i18n": {
+      "de": {
+        "name": "1",
+        "audio": "1.mp3"
+      },
+      "es": {
+        "name": "1",
+        "audio": "uno.mp3"
+      }
+    }
+  },
+  {
+    "id": "02",
+    "i18n": {
+      "de": {
+        "name": "2",
+        "audio": "2.mp3"
+      },
+      "es": {
+        "name": "2",
+        "audio": "dos.mp3"
+      }
+    }
+  },
+  {
+    "id": "03",
+    "i18n": {
+      "de": {
+        "name": "3",
+        "audio": "3.mp3"
+      },
+      "es": {
+        "name": "3",
+        "audio": "tres.mp3"
+      }
+    }
+  },
+  {
+    "id": "04",
+    "i18n": {
+      "de": {
+        "name": "4",
+        "audio": "4.mp3"
+      },
+      "es": {
+        "name": "4",
+        "audio": "cuatro.mp3"
+      }
+    }
+  },
+  {
+    "id": "05",
+    "i18n": {
+      "de": {
+        "name": "5",
+        "audio": "5.mp3"
+      },
+      "es": {
+        "name": "5",
+        "audio": "cinco.mp3"
+      }
+    }
+  },
+  {
+    "id": "06",
+    "i18n": {
+      "de": {
+        "name": "6",
+        "audio": "6.mp3"
+      },
+      "es": {
+        "name": "6",
+        "audio": "seis.mp3"
+      }
+    }
+  },
+  {
+    "id": "07",
+    "i18n": {
+      "de": {
+        "name": "7",
+        "audio": "7.mp3"
+      },
+      "es": {
+        "name": "7",
+        "audio": "siete.mp3"
+      }
+    }
+  },
+  {
+    "id": "08",
+    "i18n": {
+      "de": {
+        "name": "8",
+        "audio": "8.mp3"
+      },
+      "es": {
+        "name": "8",
+        "audio": "ocho.mp3"
+      }
+    }
+  },
+  {
+    "id": "09",
+    "i18n": {
+      "de": {
+        "name": "9",
+        "audio": "9.mp3"
+      },
+      "es": {
+        "name": "9",
+        "audio": "nueve.mp3"
+      }
+    }
+  },
+  {
+    "id": "10",
+    "i18n": {
+      "de": {
+        "name": "10",
+        "audio": "10.mp3"
+      },
+      "es": {
+        "name": "10",
+        "audio": "diez.mp3"
+      }
+    }
+  },
+  {
     "id": "apfel",
     "image": "apfel.png",
     "i18n": {
@@ -226,7 +356,6 @@
   {
     "id": "auto",
     "image": "auto.png",
-    "sound": "car.wav",
     "i18n": {
       "de": {
         "name": "das Auto",
@@ -619,7 +748,6 @@
   {
     "id": "affe",
     "image": "affe.png",
-    "sound": "affe.wav",
     "i18n": {
       "de": {
         "name": "der Affe",
